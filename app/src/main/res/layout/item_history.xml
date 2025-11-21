@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="#FFFFFF"
+    android:layout_marginBottom="4dp"
+    android:elevation="1dp">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:id="@+id/colIndex"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/colDate"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:text="06 Nov 2025"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/colCrop"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:text="Wheat"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/colDisease"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:text="Leaf Rust"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/colConfidence"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:text="95%"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/colAction"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:textColor="#0E9249"
+        android:textStyle="bold" />
+</LinearLayout>

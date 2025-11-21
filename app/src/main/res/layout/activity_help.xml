@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F9F8"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌾 Intelligent Pesticide Sprinkling System"
+            android:textAlignment="center"
+            android:textColor="#0E9249"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:padding="12dp"
+            android:layout_marginBottom="8dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧠 Problem Statement"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Excessive and indiscriminate application of pesticides in agriculture creates soil degradation, water contamination, and health risks. Traditional methods spray evenly regardless of infection level, leading to waste and contamination. An intelligent system is needed to detect infection levels in plants and regulate pesticide usage efficiently."
+            android:textColor="#444"
+            android:textSize="14sp"
+            android:paddingBottom="12dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="❓ Help and FAQs"
+            android:textAlignment="center"
+            android:textColor="#0E9249"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="12dp"
+            android:background="#000"
+            android:layout_marginBottom="8dp"/>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            app:cardBackgroundColor="#E9FBE9"
+            app:cardCornerRadius="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:id="@+id/faq1Title"
+                    android:text="🤖 How does the intelligent pesticide sprinkling system work?"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+
+                    android:textSize="16sp" android:layout_width="wrap_content"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/faq1Content"
+                    android:text="The system uses a camera or sensor to detect infection levels on plant leaves. Based on the severity, it automatically adjusts the pesticide spray quantity, ensuring minimum waste and effective treatment."
+                    android:visibility="gone"
+                    android:paddingTop="8dp"
+                    android:textColor="#444"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            app:cardBackgroundColor="#E9FBE9"
+            app:cardCornerRadius="12dp">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/faq2Title"
+                    android:text="🌿 How does the system detect the infection level?"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/faq2Content"
+                    android:text="The system employs image processing and AI-based classification to analyze the color, texture, and shape of leaves, determining whether the plant is healthy, mildly infected, or severely infected."
+                    android:visibility="gone"
+                    android:paddingTop="8dp"
+                    android:textColor="#444"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            app:cardBackgroundColor="#E9FBE9"
+            app:cardCornerRadius="12dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/faq3Title"
+                    android:text="💧 How does this system help reduce pesticide wastage?"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/faq3Content"
+                    android:text="By analyzing infection levels in real time, the system sprays pesticides only where needed and in precise amounts, minimizing overuse and reducing environmental contamination."
+                    android:visibility="gone"
+                    android:paddingTop="8dp"
+                    android:textColor="#444"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            app:cardBackgroundColor="#E9FBE9"
+            app:cardCornerRadius="12dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/faq4Title"
+                    android:text="⚙️ What components are used in the system?"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/faq4Content"
+                    android:text="It typically uses a Raspberry Pi or Arduino controller, a camera/sensor module, a pump and nozzle system for spraying, and a trained AI model for infection detection."
+                    android:visibility="gone"
+                    android:paddingTop="8dp"
+                    android:textColor="#444"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            app:cardBackgroundColor="#E9FBE9"
+            app:cardCornerRadius="12dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/faq5Title"
+                    android:text="📊 Can this system work for different types of crops?"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/faq5Content"
+                    android:text="Yes, with proper training of the AI model using crop-specific images, it can be adapted for various crops such as rice, wheat, cotton, or maize."
+                    android:visibility="gone"
+                    android:paddingTop="8dp"
+                    android:textColor="#444"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📞 Still need help?"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#C2185B"
+            android:paddingTop="12dp"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feel free to contact our technical team at supportplantairecognition.com\nWe typically respond within 24 hours."
+            android:textColor="#555"
+            android:textSize="14sp"
+            android:paddingBottom="16dp"/>
+    </LinearLayout>
+</ScrollView>
